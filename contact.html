@@ -1,0 +1,75 @@
+<!DOCtype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>The View | Contact</title>
+        <meta name="author" content="Einna Silmone">
+        <meta name="description" content="Contact page for The View resort in the Swiss Alps">
+
+        <link rel="stylesheet" href="https://use.typekit.net/iei4chr.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <header>
+            <h1><a href="index.html">The View</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                    <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields marked with a *</p>
+                    <img src="images/images-20250430T012248Z-001/images/swiss-sunset.jpg" alt="image of a lakeside resort in front of a sunset">
+                    <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+                        <div>
+                            <label for="full-name">Full Name:<span class="required">*</span></label>
+                            <input type="text" name="full-name" id="full-name" required>
+
+                            <label for="email">Email:<span class="required">*</span></label>
+                            <input type="email" name="email" id="email" required>
+
+                            <label for="phone-number">Phone Number:<span class="required">*</span></label>
+                            <input type="text" name="phone-number" id="phone-number" required>
+                        </div>
+
+                        <div>
+                            <fieldset>
+                                <legend>Preferred Contact Method</legend>
+                                <div>
+                                    <input type="radio" name="rbttn" id="b1email" value="" checked>
+                                    <label for="b1email">Email</label> 
+                                </div>
+                                <div>
+                                    <input type="radio" name="rbttn" id="b2phone">
+                                    <label for="b2phone">Phone</label>
+                                </div>
+                            </fieldset>    
+
+                            <label for="comments">Comments:<span class="required">*</span></label>
+                            <textarea name="comments" id="comments" placeholder="" rows="3" cols="20" required></textarea>
+                        
+                            <input type="submit" name="submit" id="submit" value="Submit Form">
+                        </div>
+                </form>
+            </section>
+        </main>
+        
+        <footer>
+            <p>Copyright ©2025 - The View</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
